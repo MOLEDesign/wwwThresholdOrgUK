@@ -1,0 +1,36 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.custom-logo {
+	width: 160px;
+	height: 60px;
+	background: url(../../../images/yootheme/logo.png) 0 50% no-repeat;
+    background-size: contain;
+}
+
+.frontpage-headline { 
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+/* Bottom
+----------------------------------------------------------------------------------------------------*/
+
+#bottom-a .custom h3 { 
+	margin-top: 7px;
+	margin-bottom: 27px;  
+	line-height: 30px;
+	font-size: 24px;
+}
+
+#bottom-a .custom p {
+	margin-top: 0;
+	font-family: "OpenSansLight";
+	font-size: 18px; 
+}

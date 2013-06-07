@@ -1,0 +1,79 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+#breadcrumbs,
+#content,
+.module { margin: 5px; }
+
+#toolbar,
+#header,
+#footer { margin: 0 5px; }
+
+#top-a { padding: 5px 0; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Blocks */
+#block-toolbar { padding: 5px 0; }
+
+#block-main,
+#block-bottom,
+#block-footer { padding: 15px 0; }
+
+#block-main { padding-bottom: 20px; }
+
+/* Widths */
+.wrapper.max-width80 { max-width: 80%; }
+.wrapper.max-width100 { max-width: 100%; }
+
+/* Header */
+#menubar { float: right; }
+
+#logo { height: 80px; }
+#logo > img {
+	width: auto;
+	max-height: 100%;
+}
+
+#block-main,
+#block-bottom,
+#block-footer { position: relative; }
+
+/* Footer */
+#footer { text-align: left; }
+
+#footer,
+#toolbar {
+	font-size: 12px;
+	line-height: 26px;
+	color: #666666;
+}
+
+/* ToTop Scroller */
+
+body { overflow: hidden; }
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 25px;
+	right: 0;
+	z-index: 1;
+	width: 28px;
+	height: 28px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 0 -30px; }
+#totop-scroller:active { background-position: 0 -60px; }
