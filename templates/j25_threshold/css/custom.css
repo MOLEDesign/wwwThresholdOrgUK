@@ -34,3 +34,19 @@
 	font-family: "OpenSansLight";
 	font-size: 18px; 
 }
+
+
+#logo, #logo > img {
+    float: right;
+}
+#menubar {
+    float:left;
+}
+
+#menu {
+    float: left;
+}
+
+#search {
+    float: right;
+}
