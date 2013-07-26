@@ -51,7 +51,7 @@ body { background: #2C2C2C; }
 .menu-dropdown .dropdown-bg > div { background: #333; }
 
 .menu-dropdown a.level1,
-.menu-dropdown span.level1 { color: #919191; }
+.menu-dropdown span.level1 { color: #D5C6C6; }
 
 .menu-dropdown li.level1:hover .level1,
 .menu-dropdown li.remain .level1 { 
