@@ -14,6 +14,10 @@
 #header,
 #footer { margin: 0 5px; }
 
+#header {
+    height:100px;
+}
+
 #top-a { padding: 5px 0; }
 
 #footer .module { margin: 0; }
