@@ -104,8 +104,10 @@ body { background: #2a2f31; }
 .searchbox input::-webkit-input-placeholder { color: #becbd4; }
 .searchbox input.placeholder { color: #becbd4; }
 
-.searchbox .results { background: #2a2f31; }
+.searchbox .results { background: #999999; }
 
 .searchbox .results:after { background-image: url(../images/menu_dropdown_level1_parent.png); }
+
+.searchbox .results { color: #FFF;}
 
 .searchbox.loading button { background-image: url(../images/searchbox_loader.gif); }
